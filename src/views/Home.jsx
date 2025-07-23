@@ -5,6 +5,7 @@ import '../scss/components/Chart.scss';
 
 import ChartBar from '../components/ChartBar';
 import ChartRadar from '../components/ChartRadar';
+import dImg from '../assets/images/img.png';
 
 const Home = ({ rawData, chartColor, categoryToTypeMap, colorToTypeMap }) => {
   const [finalData, setFinalData] = useState([]);
@@ -152,7 +153,7 @@ const Home = ({ rawData, chartColor, categoryToTypeMap, colorToTypeMap }) => {
 
       <div className='mainBox hasSide'>
         <div className='dImg'>
-          <img src='public/img.png' alt='' />
+          <img src={dImg} alt='' />
         </div>
         <aside>
           <div className='reader'>

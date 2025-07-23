@@ -428,14 +428,18 @@ body {
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 70px;
+  gap: 50px;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 7670px) {
   .readingPlan .tabTopNav ul {
     gap: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .readingPlan .tabTopNav ul {
     justify-content: space-between;
     margin: 0;
   }
@@ -444,8 +448,12 @@ body {
   .readingPlan .tabTopNav ul {
     flex-direction: column;
   }
+}
+.readingPlan .tabTopNav ul li {
+  padding: 0 25px;
+}
+@media screen and (max-width: 550px) {
   .readingPlan .tabTopNav ul li {
-    padding: 0 25px;
     border-bottom: #4a154c 5px solid;
   }
 }
@@ -454,12 +462,12 @@ body {
   text-decoration: none;
   color: #fff;
   display: block;
-  padding: 20px 0px;
-  font-size: 1.125rem;
-  margin-bottom: -5px;
   background: none;
   border: none;
   cursor: pointer;
+  padding: 20px 0px;
+  font-size: 1.125rem;
+  margin-bottom: -5px;
 }
 .readingPlan .tabTopNav ul a.active,
 .readingPlan .tabTopNav ul button.active {
@@ -1030,6 +1038,16 @@ body {
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 12px;
+}
+@media screen and (max-width: 767px) {
+  .readingPlan .listBox .item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+@media screen and (max-width: 500px) {
+  .readingPlan .listBox .item {
+    width: calc((100% - 20px) / 2);
+  }
 }
 .readingPlan .listBox .item .pic {
   line-height: 0;

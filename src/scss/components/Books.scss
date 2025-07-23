@@ -18,6 +18,14 @@
       border: 1px solid #ccc;
       border-radius: 12px;
 
+      @media screen and (max-width: 767px) {
+        width: calc((100% - (20px)) / 2);
+      }
+
+      @media screen and (max-width: 500px) {
+        width: calc((100% - (20px)) / 2);
+      }
+
       .pic {
         line-height: 0;
         display: flex;
