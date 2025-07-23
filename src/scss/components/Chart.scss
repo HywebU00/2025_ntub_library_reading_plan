@@ -1,0 +1,97 @@
+@use "sass:math";
+@use "../_variable" as *;
+@use "../basic/_mixins" as *;
+
+.chart {
+  width: calc((100% - 40px) / 2);
+  position: relative;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 0 20px 0 rgba(119, 89, 105, 0.25);
+  padding: 30px 40px;
+
+  @media screen and (max-width: 1024px) {
+    padding: 30px 20px;
+  }
+
+  // display: flex;
+  // flex-direction: column;
+  // gap: 10px;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
+
+  .chartTitle {
+    font-size: Rem(20);
+    font-weight: bold;
+    padding-left: 20px;
+    position: relative;
+    isolation: isolate;
+    margin-bottom: 20px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 5px;
+      display: block;
+      background: #fff;
+      z-index: -1;
+    }
+
+    &.type1 {
+      background-color: #7474db;
+      color: #7474db
+    }
+
+    &.type2 {
+      background-color: #e65e7f;
+      color: #e65e7f
+    }
+  }
+
+  .box {
+    position: relative; // 關鍵！為 Chart.js 提供穩定的定位參考
+  }
+
+  &.radarChart {
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.loading {
+  position: absolute;
+  z-index: 9;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.8);
+
+  &::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 6px solid #ccc;
+    border-top-color: #797979;
+    animation: spin 1s infinite linear;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center center;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+  }
+}
+
+@keyframes spin {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

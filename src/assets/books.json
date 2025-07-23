@@ -1,0 +1,258 @@
+[
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "數據驅動的商業決策",
+    "author": "張偉傑",
+    "categories": [
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "商業分析與決策"
+      },
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "數位科技應用"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "智慧工廠的資訊管理",
+    "author": "陳思涵",
+    "categories": [
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "資訊管理應用"
+      },
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "數位科技應用"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "資訊科技應用"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "設計思考與創新產品開發",
+    "author": "林佳穎",
+    "categories": [
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "商品設計與研發"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "創新能力"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "國際貿易法規實務",
+    "author": "王志明",
+    "categories": [
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "商管相關法令應用"
+      },
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "國際經貿知識與實務"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "商務英語溝通",
+    "author": "高佩珊",
+    "categories": [
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "語言應用能力"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "溝通表達"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "全球化下的經貿策略",
+    "author": "楊智凱",
+    "categories": [
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "國際經貿知識與實務"
+      },
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "商業分析與決策"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "人工智慧在金融的應用",
+    "author": "許雅雯",
+    "categories": [
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "數位科技應用"
+      },
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "財務管理與金融投資"
+      },
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "資訊管理應用"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "投資組合管理實務",
+    "author": "李國華",
+    "categories": [
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "財務管理與金融投資"
+      },
+      {
+        "main_category": "專業能力指標",
+        "sub_category": "商業分析與決策"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "高效溝通的藝術",
+    "author": "吳宗翰",
+    "categories": [
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "溝通表達"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "人際互動"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "終身學習的力量",
+    "author": "黃詩婷",
+    "categories": [
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "持續學習"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "品格與人文素養"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "建立良好人際關係",
+    "author": "周俊宏",
+    "categories": [
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "人際互動"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "溝通表達"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "團隊合作"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "問題解決策略",
+    "author": "孫佳玲",
+    "categories": [
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "問題解決"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "創新能力"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "從零到一的創新思維",
+    "author": "趙文彬",
+    "categories": [
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "創新能力"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "持續學習"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "職場責任與自我管理",
+    "author": "張淑芬",
+    "categories": [
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "工作責任與紀律"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "持續學習"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "問題解決"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "資訊安全與數位倫理",
+    "author": "呂明哲",
+    "categories": [
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "資訊科技應用"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "品格與人文素養"
+      }
+    ]
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1529590003495-b2646e2718bf?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "人工智慧與品格",
+    "author": "謝宜君",
+    "categories": [
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "品格與人文素養"
+      },
+      {
+        "main_category": "共同職能指標",
+        "sub_category": "資訊科技應用"
+      }
+    ]
+  }
+]

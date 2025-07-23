@@ -1,0 +1,1072 @@
+:root {
+  --RWDWidth: 991px;
+  --sideFixTop: 80px;
+  --borderRadius: 8px;
+  --borderRadius2: 4px;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.readingPlan {
+  overflow: hidden;
+  padding: 0 30px;
+  background: #62356a;
+  position: relative;
+  isolation: isolate;
+}
+.readingPlan::after {
+  content: "";
+  position: absolute;
+  top: 600px;
+  min-height: 0px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(to top, #e199b3 50%, rgba(225, 153, 179, 0) 100%);
+}
+.readingPlan * {
+  box-sizing: border-box;
+}
+.readingPlan .contentBox {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 50px 0;
+  position: relative;
+  isolation: isolate;
+}
+.readingPlan .contentBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 10%;
+  background: url("../images/imgtop.png") no-repeat top right;
+  background-size: contain;
+  height: 80px;
+  width: 80%;
+}
+@media screen and (max-width: 550px) {
+  .readingPlan .contentBox::before {
+    right: 5%;
+  }
+}
+.readingPlan h2 {
+  margin: 0 0 30px;
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.readingPlan .container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.readingPlan .topBox {
+  margin-bottom: 30px;
+}
+.readingPlan .tabTopNav {
+  top: 0;
+  z-index: 90;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 50%;
+  border-bottom: #4a154c 5px solid;
+}
+@media screen and (max-width: 550px) {
+  .readingPlan .tabTopNav {
+    width: 100%;
+    border: none;
+  }
+}
+.readingPlan .tabTopNav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 70px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+@media screen and (max-width: 550px) {
+  .readingPlan .tabTopNav ul {
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .readingPlan .tabTopNav ul {
+    flex-direction: column;
+  }
+  .readingPlan .tabTopNav ul li {
+    padding: 0 25px;
+    border-bottom: #4a154c 5px solid;
+  }
+}
+.readingPlan .tabTopNav ul a,
+.readingPlan .tabTopNav ul button {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 20px 0px;
+  font-size: 1.125rem;
+  margin-bottom: -5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.readingPlan .tabTopNav ul a.active,
+.readingPlan .tabTopNav ul button.active {
+  border-bottom: #e6b2c6 5px solid;
+}
+.readingPlan .tabContentBox .tabContent {
+  display: none;
+}
+.readingPlan .tabContentBox .tabContent.active {
+  display: block;
+}
+.readingPlan .mainBox {
+  min-height: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(45deg, #c2889d 0%, #fff 400px);
+  position: relative;
+}
+@media screen and (max-width: 1024px) {
+  .readingPlan .mainBox {
+    padding: 20px;
+  }
+}
+.readingPlan .mainBox > .container {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.readingPlan .mainBox.hasSide {
+  flex-direction: row;
+  gap: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .readingPlan .mainBox.hasSide {
+    flex-direction: column;
+  }
+}
+.readingPlan .mainBox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 5%;
+  background: url("../images/imgtop2.png") no-repeat top right;
+  background-size: contain;
+  height: 80px;
+  width: 70%;
+  z-index: -1;
+  height: 511px;
+  transform: translateY(-43%);
+}
+@media screen and (max-width: 1250px) {
+  .readingPlan .mainBox::after {
+    right: auto;
+    left: 300px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .readingPlan .mainBox::after {
+    right: auto;
+    left: 350px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .readingPlan .mainBox::after {
+    width: 100%;
+    left: 200px;
+    transform: translateX(0%) translateY(-60%);
+  }
+}
+.readingPlan .mainBox .topBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.readingPlan .mainBox .topBox .btnBox {
+  justify-content: space-between;
+}
+.readingPlan .mainBox .topBox .btnBox .clear {
+  filter: grayscale(100%) brightness(1.8);
+}
+.readingPlan .mainBox .infoTitle {
+  font-weight: bold;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #62356a;
+  border-bottom: #62356a 3px solid;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+@media screen and (max-width: 767px) {
+  .readingPlan .mainBox .infoTitle {
+    flex-direction: column;
+  }
+}
+.readingPlan .mainBox .infoTitle span {
+  font-size: 16px;
+  color: #8c778f;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+.readingPlan aside {
+  width: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .readingPlan aside {
+    width: 100%;
+  }
+}
+.readingPlan aside fieldset {
+  display: none;
+}
+.readingPlan aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.readingPlan aside .reader ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.readingPlan aside .reader ul li {
+  display: flex;
+  color: #272727;
+}
+.readingPlan aside .reader ul li * > div {
+  padding: 5px 0;
+}
+.readingPlan aside .reader ul li .title {
+  width: 60px;
+  color: #8c778f;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.readingPlan aside .title {
+  color: #8c778f;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.readingPlan aside .search ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.readingPlan aside .search input {
+  padding: 10px;
+  width: 100%;
+  background: #e9dce5;
+  border: none;
+  border-radius: 6px;
+}
+.readingPlan aside .search button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #995e8e 0%, #65376c 100%);
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.readingPlan .chartBox {
+  min-width: 0;
+  position: relative;
+  flex-grow: 1;
+}
+.readingPlan .chartBox .infoTitle {
+  margin-bottom: 40px;
+}
+.readingPlan .chartBox .outerBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.readingPlan .chartBox .chartOuter {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.readingPlan .chartBox .bottomBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media screen and (max-width: 767px) {
+  .readingPlan .chartBox .bottomBox {
+    flex-direction: column;
+  }
+}
+.readingPlan .chartBox .bottomBox .total {
+  color: #62356a;
+}
+.readingPlan .chartBox .bottomBox .total span {
+  color: #e01d48;
+}
+.readingPlan .chartBox .btnBox {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.readingPlan .chartBox .btnBox button {
+  width: 175px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+}
+.readingPlan .chartBox .btnBox button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(to bottom, #995e8e 50%, #65376c 100%);
+  background-size: 200% 200%;
+  background-position: center bottom;
+  transition: background-position 0.3s ease;
+}
+.readingPlan .chartBox .btnBox button:hover::after {
+  background-position: center top;
+}
+.readingPlan .chartBox .btnBox .printBtn::before,
+.readingPlan .chartBox .btnBox .exportBtn::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.readingPlan .chartBox .btnBox .printBtn::before {
+  background-image: url("../images/i_p.svg");
+}
+.readingPlan .chartBox .btnBox .exportBtn::before {
+  background-image: url("../images/i_e.svg");
+}
+.readingPlan .dImg {
+  position: absolute;
+  bottom: 0;
+  left: -3%;
+  z-index: 9;
+}
+@media screen and (max-width: 1024px) {
+  .readingPlan .dImg {
+    display: none;
+  }
+}
+.readingPlan .dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s 0.3s;
+  z-index: 1000;
+}
+.readingPlan .dialog.open {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease;
+}
+.readingPlan .dialog .pic {
+  margin-bottom: 10px;
+}
+.readingPlan .dialog .title {
+  font-weight: bold;
+  font-size: 1.375rem;
+}
+.readingPlan .dialog .dialogContent {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+.readingPlan .dialog .dialogContent h3 {
+  margin-top: 0;
+  color: #62356a;
+}
+.readingPlan .dialog .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.readingPlan .dialog .btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: linear-gradient(to bottom, #995e8e 50%, #65376c 100%);
+  background-size: 200% 200%;
+  background-position: center bottom;
+  transition: background-position 0.3s ease;
+}
+.readingPlan .dialog .btn:hover::after {
+  background-position: center top;
+}
+.readingPlan .dialog .btn.clear::after {
+  background: #7d7d7d;
+}
+.readingPlan .chart {
+  width: calc((100% - 40px) / 2);
+  position: relative;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 0 20px 0 rgba(119, 89, 105, 0.25);
+  padding: 30px 40px;
+}
+@media screen and (max-width: 1024px) {
+  .readingPlan .chart {
+    padding: 30px 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .readingPlan .chart {
+    width: 100%;
+  }
+}
+.readingPlan .chart .chartTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-left: 20px;
+  position: relative;
+  isolation: isolate;
+  margin-bottom: 20px;
+}
+.readingPlan .chart .chartTitle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 5px;
+  display: block;
+  background: #fff;
+  z-index: -1;
+}
+.readingPlan .chart .chartTitle.type1 {
+  background-color: #7474db;
+  color: #7474db;
+}
+.readingPlan .chart .chartTitle.type2 {
+  background-color: #e65e7f;
+  color: #e65e7f;
+}
+.readingPlan .chart .box {
+  position: relative;
+}
+.readingPlan .chart.barChart .box {
+  height: 310px;
+}
+.readingPlan .chart.radarChart .box {
+  height: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.readingPlan .loading {
+  position: absolute;
+  z-index: 9;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.8);
+  display: none;
+}
+.readingPlan .loading::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 6px solid #ccc;
+  border-top-color: #797979;
+  animation: spin 1s infinite linear;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+@keyframes spin {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.readingPlan .checkBox {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.readingPlan .checkBox input {
+  position: absolute;
+  opacity: 0;
+}
+.readingPlan .checkBox input:checked + label {
+  color: #fff !important;
+}
+.readingPlan .checkBox label {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.readingPlan .checkBox input:checked + label {
+  opacity: 1;
+}
+.readingPlan .checkBox input + label {
+  color: #fff;
+}
+.readingPlan .checkBox.type1 label {
+  background: #7474db;
+}
+.readingPlan .checkBox.type2 label {
+  background: #e65e7f;
+}
+.readingPlan .bookList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.readingPlan .bookList .inputBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.readingPlan .bookList .inputBox::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  display: block;
+  background-image: url("../images/i_s.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.readingPlan .bookList .inputBox svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+.readingPlan .bookList .inputBox input {
+  border: #ccc 1px solid;
+  border-radius: 50px;
+  flex-grow: 1;
+  padding: 10px 20px 10px 40px;
+}
+.readingPlan .bookList .btnBox {
+  display: flex;
+  justify-content: space-between;
+}
+.readingPlan .bookList button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+}
+.readingPlan .bookList button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: linear-gradient(to bottom, #995e8e 50%, #65376c 100%);
+  background-size: 200% 200%;
+  background-position: center bottom;
+  transition: background-position 0.3s ease;
+}
+.readingPlan .bookList button:hover::after {
+  background-position: center top;
+}
+.readingPlan .bookList button.clear::after {
+  background: #7d7d7d;
+}
+.readingPlan .bookList .noData {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.125rem;
+}
+.readingPlan .bookList .noData::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url("../../assets/images/i_w.svg") no-repeat center center;
+  background-size: contain;
+}
+.readingPlan .listBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.readingPlan .listBox .item {
+  width: calc((100% - 40px) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+.readingPlan .listBox .item .pic {
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.readingPlan .listBox .item .pic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.readingPlan .listBox .title {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+.readingPlan .listBox .tagBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.readingPlan .listBox .tagBox .tag {
+  font-size: 0.75rem;
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  color: #fff;
+  white-space: nowrap;
+}
+.readingPlan .listBox .tagBox .tag.type1 {
+  background: #7474db;
+}
+.readingPlan .listBox .tagBox .tag.type2 {
+  background: #e65e7f;
+}
+.readingPlan .listBox button {
+  margin-top: auto;
+}/*# sourceMappingURL=style.css.map */

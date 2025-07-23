@@ -1,0 +1,111 @@
+@use '../variable' as *;
+@use '../basic/_mixins' as *;
+@use "sass:math";
+
+.readingPlan {
+  .bookList {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .inputBox {
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      &::before {
+        content: '';
+        width: 22px;
+        height: 22px;
+        display: block;
+        background-image: url('../../assets/images/i_s.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+      }
+
+      svg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+      }
+
+      input {
+        border: #ccc 1px solid;
+        border-radius: 50px;
+        flex-grow: 1;
+        padding: 10px 20px 10px 40px;
+      }
+    }
+
+    .btnBox {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 50px;
+      color: #fff;
+      font-weight: bold;
+      letter-spacing: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      cursor: pointer;
+      isolation: isolate;
+      position: relative;
+      overflow: hidden;
+
+      &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background-image: linear-gradient(to bottom, #995e8e 50%, #65376c 100%);
+        background-size: 200% 200%;
+        background-position: center bottom;
+        transition: background-position 0.3s ease;
+      }
+
+      &:hover {
+        &::after {
+          background-position: center top;
+        }
+      }
+
+      &.clear {
+        &::after {
+          background: #7d7d7d;
+        }
+      }
+    }
+
+    .noData {
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      height: 100px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: Rem(18);
+
+      &::before {
+        content: '';
+        width: 30px;
+        height: 30px;
+        display: block;
+        background: url('../../assets/images/i_w.svg') no-repeat center center;
+        background-size: contain;
+      }
+    }
+  }
+}

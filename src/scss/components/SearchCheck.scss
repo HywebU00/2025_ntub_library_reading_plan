@@ -1,0 +1,56 @@
+@use '../variable' as *;
+@use '../basic/_mixins' as *;
+@use "sass:math";
+
+.readingPlan {
+  .checkBox {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+
+    input {
+      position: absolute;
+      opacity: 0;
+
+      &:checked {
+        & + label {
+          color: #fff !important;
+        }
+      }
+    }
+
+    label {
+      display: block;
+      padding: 8px 12px;
+      border-radius: 50px;
+      font-size: Rem(14);
+      opacity: 0.7;
+      cursor: pointer;
+    }
+
+    input {
+
+      &:checked {
+        & + label {
+          opacity: 1;
+        }
+      }
+
+      & + label {
+        color: #fff;
+      }
+    }
+
+    &.type1 {
+      label {
+        background: #7474db;
+      }
+    }
+
+    &.type2 {
+      label {
+        background: #e65e7f;
+      }
+    }
+  }
+}
