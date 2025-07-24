@@ -6,6 +6,7 @@ import '../scss/components/Chart.scss';
 import ChartBar from '../components/ChartBar';
 import ChartRadar from '../components/ChartRadar';
 import dImg from '../assets/images/img.png';
+import Success from '../assets/images/i_success.svg';
 
 const Home = ({ rawData, chartColor, categoryToTypeMap, colorToTypeMap }) => {
   const [finalData, setFinalData] = useState([]);
@@ -141,7 +142,7 @@ const Home = ({ rawData, chartColor, categoryToTypeMap, colorToTypeMap }) => {
       <div className={`dialog ${open ? 'open' : ''}`}>
         <div className='dialogContent'>
           <div className='pic'>
-            <img src='public/i_success.svg' alt='' />
+            <img src={Success} alt='' />
           </div>
           <div className='title'>報告已生成</div>
           <p>您的閱讀履歷報告已成功生成！</p>
